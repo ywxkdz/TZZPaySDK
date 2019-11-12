@@ -1,0 +1,6 @@
+module Pods_TZZPaySDK_Tests {
+  umbrella header "Pods-TZZPaySDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

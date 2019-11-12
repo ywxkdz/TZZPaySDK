@@ -1,0 +1,6 @@
+framework module TZZPaySDK {
+  umbrella header "TZZPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

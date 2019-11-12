@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+			productName = "AlipaySDK-iOS";
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 25AB345A658444BF0780735AEDC36F54 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+			productName = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DC451241B44ABB628C6489DAAE155E /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667A54660B9A69DDE642DB67EB8305B /* UIApplication+StrictKeyWindow.m */; };
+		30C11B0C0A12D84FEF07114C18979CA6 /* Pods-TZZPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDC7D4529BBFA040F1011C72A1F3A7 /* Pods-TZZPaySDK_Tests-dummy.m */; };
+		3987678B1170687BB65CC7E05CD7EA8F /* TZZAliPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6E4B1D727E301725233298DA5D47FF /* TZZAliPayHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BC6D7CEF750D88F60C26029221F31D4 /* TZZWXPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA492562943B425F65F127CF31F8564 /* TZZWXPayHelper.m */; };
+		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB7250D5040892E01E4CE526DDBAD57 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C5164B8231DC6363C776769A3F8D64EA /* FBSnapshotTestCasePlatform.m */; };
+		5F86388268DFFF58C9A92E8BB30C13C0 /* TZZPayProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 63029F479A36E8EB08343A3011F5ECF2 /* TZZPayProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		609B80EB5384086109D3CC30DAC326D3 /* TZZPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 152187E782892528E129BB14B5A1732A /* TZZPayManager.m */; };
+		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0A7FEF76C021F67B2FA4E2A66AEE4C /* FBSnapshotTestController.m */; };
+		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100F5DC5F0FFB9617122489870AD9E6C /* SwiftSupport.swift */; };
+		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3E331E5B93459C9CC95AFD7564484E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711FA96199BE0E6ACA3E51ED8D05680 /* UIImage+Compare.m */; };
+		AA59E486AA9CF93DC83FA2B9FAF05556 /* TZZWXPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D81562FA344BCBFD5FE69BE9FA5610C /* TZZWXPayHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D06F4A9C3CEEF8DF3D2AAD9FE6505B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B266BF96621F461CBAFE8F60C3F13B00 /* Pods-TZZPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D529081A2DB1CCFEBF175E8D230ABC10 /* Pods-TZZPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B41C69ABFC71909456870385F9BF9283 /* TZZPayModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A684BA1DB4C5C71E12E503D3E84066A /* TZZPayModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D7035CF32FF2FB295EFEE4F6B31778BE /* UIImage+Diff.m */; };
+		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AA39D00424385291F27E5493B5DFA2 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BF1E1EDDAAFD1A692B299995DAC8D7 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBE90B8667E7D577FAE2A4567E1E09 /* UIImage+Snapshot.m */; };
+		CDFEA7D10636A35A02BBD9CD20BEDB07 /* TZZAliPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2EB59834719044D98BC05D5FC196BA /* TZZAliPayHelper.m */; };
+		D1479A8C83F0D64C52BBEE656411BFFA /* TZZPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D3FBBE0A3D5C6AB276CE49D3D9E043 /* TZZPaySDK-dummy.m */; };
+		D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA0C1CB0E9A3BE218BDA9C76314AA1 /* FBSnapshotTestCase-dummy.m */; };
+		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1BF53E6EBD1B82FF2E5ACD8FFB033 /* FBSnapshotTestCase.m */; };
+		E5DF24219BFD9DB78FD10D98AA11F099 /* TZZPayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48596B3A461EE98F273F8D4406FF3F20 /* TZZPayModel.m */; };
+		EB97B37248A527DD70C9E38959D2EF23 /* TZZPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 190E3DF9CF7FEEBAA3147E5245B62245 /* TZZPayManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8C75B61C5646D6AF439118FD3D48FA /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6B611C913D0E6D8A0E313DB58ADC826 /* Pods-TZZPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF80A9E065485936500266FC8E0512E /* Pods-TZZPaySDK_Example-dummy.m */; };
+		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1F17F5E761202AE71A5B3397CAC684 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E32FBAE4FF1FE5503B75D81A281B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED85B52C03E81B3B8239C5F39EC650F1;
+			remoteInfo = "Pods-TZZPaySDK_Example";
+		};
+		1B84BFFCD92D3E0DA7941DE4888AC935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		20666B5BE983F079F294ACB5763FD17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		774F292600E2871CBB89EE3BE17863A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		9136B2C6C21C10AD39A40E64DE0787B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D481CCF07247A310FD945B496958400;
+			remoteInfo = TZZPaySDK;
+		};
+		A6AFDB2B1F6AE7C0669A95FB39048467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B3506166A37CACD6B30888AAA940CE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EDD1EEFB78997E4083359A57D411651 /* Pods-TZZPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZZPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		100F5DC5F0FFB9617122489870AD9E6C /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		109792DDB34E3EEA34301E646FC810DF /* Pods-TZZPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZZPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		152187E782892528E129BB14B5A1732A /* TZZPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZPayManager.m; path = TZZPaySDK/Classes/TZZPayManager.m; sourceTree = "<group>"; };
+		15D3FBBE0A3D5C6AB276CE49D3D9E043 /* TZZPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZZPaySDK-dummy.m"; sourceTree = "<group>"; };
+		190E3DF9CF7FEEBAA3147E5245B62245 /* TZZPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZPayManager.h; path = TZZPaySDK/Classes/TZZPayManager.h; sourceTree = "<group>"; };
+		1B6E4B1D727E301725233298DA5D47FF /* TZZAliPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZAliPayHelper.h; path = TZZPaySDK/Classes/TZZAliPayHelper.h; sourceTree = "<group>"; };
+		1EF80A9E065485936500266FC8E0512E /* Pods-TZZPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZZPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		2494195535B93AC1D3902698D131EE33 /* Pods-TZZPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		252C779FCF86C0D850978C46D41DC481 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		28A2AF7A18DD9756C7C9DD9EBE86DFB4 /* Pods-TZZPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZZPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28A8A5B1E20400AF9C2025238619E6A1 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
+		2A684BA1DB4C5C71E12E503D3E84066A /* TZZPayModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZPayModel.h; path = TZZPaySDK/Classes/TZZPayModel.h; sourceTree = "<group>"; };
+		2B5E0A0178B4609014C4D585DF9D1011 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
+		2CEF52419911120715DD7A5E158C386B /* Pods-TZZPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZZPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3550E6E87F76E7D89073120708C992A1 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		3927ED6FBF527762A7874C21C32DCAF8 /* Pods-TZZPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZZPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D5E95C8EB3B235D95FE33B7DF8A73D2 /* libPods-TZZPaySDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZZPaySDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA0C1CB0E9A3BE218BDA9C76314AA1 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		44978D4C3D34875F7E9737D8208BE480 /* TZZPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TZZPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZZPaySDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48596B3A461EE98F273F8D4406FF3F20 /* TZZPayModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZPayModel.m; path = TZZPaySDK/Classes/TZZPayModel.m; sourceTree = "<group>"; };
+		48D06F4A9C3CEEF8DF3D2AAD9FE6505B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		4A1F17F5E761202AE71A5B3397CAC684 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		4B5EE858C3051C21B8CA109FA7EEE4F9 /* Pods-TZZPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		51BF1E1EDDAAFD1A692B299995DAC8D7 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		52AA39D00424385291F27E5493B5DFA2 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		5711FA96199BE0E6ACA3E51ED8D05680 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		5ADBE90B8667E7D577FAE2A4567E1E09 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63029F479A36E8EB08343A3011F5ECF2 /* TZZPayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZPayProtocol.h; path = TZZPaySDK/Classes/TZZPayProtocol.h; sourceTree = "<group>"; };
+		6CEEDDA580589468F235E9A8F55286CB /* TZZPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZZPaySDK-prefix.pch"; sourceTree = "<group>"; };
+		75837511022F4F9210DD2F64F52C6B8F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		75EF6441F4A0A094A2BBD85431ACBD56 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		7BB7250D5040892E01E4CE526DDBAD57 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7D81562FA344BCBFD5FE69BE9FA5610C /* TZZWXPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZWXPayHelper.h; path = TZZPaySDK/Classes/TZZWXPayHelper.h; sourceTree = "<group>"; };
+		92EDC7D4529BBFA040F1011C72A1F3A7 /* Pods-TZZPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZZPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9667A54660B9A69DDE642DB67EB8305B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		AD8C75B61C5646D6AF439118FD3D48FA /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		BB2EB59834719044D98BC05D5FC196BA /* TZZAliPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZAliPayHelper.m; path = TZZPaySDK/Classes/TZZAliPayHelper.m; sourceTree = "<group>"; };
+		C2DC451241B44ABB628C6489DAAE155E /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		C5164B8231DC6363C776769A3F8D64EA /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		CA3E331E5B93459C9CC95AFD7564484E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		CB681F5F3F7B9B9074DB3BB959048ACA /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
+		CF0A7FEF76C021F67B2FA4E2A66AEE4C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		D529081A2DB1CCFEBF175E8D230ABC10 /* Pods-TZZPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZZPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZZPaySDK.xcconfig; sourceTree = "<group>"; };
+		D7035CF32FF2FB295EFEE4F6B31778BE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTZZPaySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
+		EA5FC64A8CF8E2688290CA7824F6B310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED4724851CFBD157B4F3B3E8C92B7ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EF222229687A8781BC11DB17DDB9A6E0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		F8B1BF53E6EBD1B82FF2E5ACD8FFB033 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		FBA492562943B425F65F127CF31F8564 /* TZZWXPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZWXPayHelper.m; path = TZZPaySDK/Classes/TZZWXPayHelper.m; sourceTree = "<group>"; };
+		FCB2AC799A90D6B55AB1FEE246DFE3A5 /* Pods-TZZPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZZPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CD7367772B5FA81C6470BE2D90BA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBC6F07E8D2DA4EDDFEF57038CE0532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACAE2D0B22CA4ED527047124F004DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F9CA866A32DC72A0163C3130E79D3A /* Pods-TZZPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				109792DDB34E3EEA34301E646FC810DF /* Pods-TZZPaySDK_Example-acknowledgements.markdown */,
+				28A2AF7A18DD9756C7C9DD9EBE86DFB4 /* Pods-TZZPaySDK_Example-acknowledgements.plist */,
+				1EF80A9E065485936500266FC8E0512E /* Pods-TZZPaySDK_Example-dummy.m */,
+				FCB2AC799A90D6B55AB1FEE246DFE3A5 /* Pods-TZZPaySDK_Example-resources.sh */,
+				2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */,
+				960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-TZZPaySDK_Example";
+			path = "Target Support Files/Pods-TZZPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		26249943E04111A8067C81C03E7FF47A /* TZZPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				1B6E4B1D727E301725233298DA5D47FF /* TZZAliPayHelper.h */,
+				BB2EB59834719044D98BC05D5FC196BA /* TZZAliPayHelper.m */,
+				190E3DF9CF7FEEBAA3147E5245B62245 /* TZZPayManager.h */,
+				152187E782892528E129BB14B5A1732A /* TZZPayManager.m */,
+				2A684BA1DB4C5C71E12E503D3E84066A /* TZZPayModel.h */,
+				48596B3A461EE98F273F8D4406FF3F20 /* TZZPayModel.m */,
+				63029F479A36E8EB08343A3011F5ECF2 /* TZZPayProtocol.h */,
+				7D81562FA344BCBFD5FE69BE9FA5610C /* TZZWXPayHelper.h */,
+				FBA492562943B425F65F127CF31F8564 /* TZZWXPayHelper.m */,
+				4BC48AED966458F10D2474DBAE66360C /* Pod */,
+				6A3DFDCA9A49C7E164AD5C2494F90BAC /* Support Files */,
+			);
+			name = TZZPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E98DB70EBAE7AFC8603BE175BE81B3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		3ABA77A608747DBB11EDB4509B609356 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB681F5F3F7B9B9074DB3BB959048ACA /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D002B9F0D48A03B3DA5EA58C481B0E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F9CA866A32DC72A0163C3130E79D3A /* Pods-TZZPaySDK_Example */,
+				7983C0E65BE6FB2B74A4B668D2A72FE3 /* Pods-TZZPaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BC48AED966458F10D2474DBAE66360C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED4724851CFBD157B4F3B3E8C92B7ACD /* LICENSE */,
+				EA5FC64A8CF8E2688290CA7824F6B310 /* README.md */,
+				44978D4C3D34875F7E9737D8208BE480 /* TZZPaySDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CEC2302F23313583C24ADB51A6F7A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A027D16E8782722AF9D4E832CD2DA5 /* AlipaySDK-iOS */,
+				C184978ADE34B12A448776911BAEE250 /* FBSnapshotTestCase */,
+				F7E06C0A2EB899F08209355C8C41C344 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51A027D16E8782722AF9D4E832CD2DA5 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B47F979B4B5C8400DC3C62E573C51D7 /* Frameworks */,
+				9D614B7B68E55690ACF74B25DE73FF51 /* Resources */,
+				2E98DB70EBAE7AFC8603BE175BE81B3A /* Support Files */,
+			);
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		6353DE0D09AF9C5A1CDE113B7749C6F8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				100F5DC5F0FFB9617122489870AD9E6C /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		6A3DFDCA9A49C7E164AD5C2494F90BAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */,
+				15D3FBBE0A3D5C6AB276CE49D3D9E043 /* TZZPaySDK-dummy.m */,
+				6CEEDDA580589468F235E9A8F55286CB /* TZZPaySDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TZZPaySDK";
+			sourceTree = "<group>";
+		};
+		7983C0E65BE6FB2B74A4B668D2A72FE3 /* Pods-TZZPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2CEF52419911120715DD7A5E158C386B /* Pods-TZZPaySDK_Tests.modulemap */,
+				3927ED6FBF527762A7874C21C32DCAF8 /* Pods-TZZPaySDK_Tests-acknowledgements.markdown */,
+				0EDD1EEFB78997E4083359A57D411651 /* Pods-TZZPaySDK_Tests-acknowledgements.plist */,
+				92EDC7D4529BBFA040F1011C72A1F3A7 /* Pods-TZZPaySDK_Tests-dummy.m */,
+				D529081A2DB1CCFEBF175E8D230ABC10 /* Pods-TZZPaySDK_Tests-umbrella.h */,
+				4B5EE858C3051C21B8CA109FA7EEE4F9 /* Pods-TZZPaySDK_Tests.debug.xcconfig */,
+				2494195535B93AC1D3902698D131EE33 /* Pods-TZZPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-TZZPaySDK_Tests";
+			path = "Target Support Files/Pods-TZZPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		7D5BAF2BC7A76275B87519112CA3FB55 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26249943E04111A8067C81C03E7FF47A /* TZZPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B47F979B4B5C8400DC3C62E573C51D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75837511022F4F9210DD2F64F52C6B8F /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D614B7B68E55690ACF74B25DE73FF51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				252C779FCF86C0D850978C46D41DC481 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACC76754ACC10D8AF1324304BD7F7C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EF6441F4A0A094A2BBD85431ACBD56 /* FBSnapshotTestCase.modulemap */,
+				9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */,
+				3FCA0C1CB0E9A3BE218BDA9C76314AA1 /* FBSnapshotTestCase-dummy.m */,
+				3550E6E87F76E7D89073120708C992A1 /* FBSnapshotTestCase-prefix.pch */,
+				48D06F4A9C3CEEF8DF3D2AAD9FE6505B /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		C184978ADE34B12A448776911BAEE250 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				C9E00B6D17371B1F46E875895A341C36 /* Core */,
+				ACC76754ACC10D8AF1324304BD7F7C33 /* Support Files */,
+				6353DE0D09AF9C5A1CDE113B7749C6F8 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C9E00B6D17371B1F46E875895A341C36 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C2DC451241B44ABB628C6489DAAE155E /* FBSnapshotTestCase.h */,
+				F8B1BF53E6EBD1B82FF2E5ACD8FFB033 /* FBSnapshotTestCase.m */,
+				7BB7250D5040892E01E4CE526DDBAD57 /* FBSnapshotTestCasePlatform.h */,
+				C5164B8231DC6363C776769A3F8D64EA /* FBSnapshotTestCasePlatform.m */,
+				AD8C75B61C5646D6AF439118FD3D48FA /* FBSnapshotTestController.h */,
+				CF0A7FEF76C021F67B2FA4E2A66AEE4C /* FBSnapshotTestController.m */,
+				CA3E331E5B93459C9CC95AFD7564484E /* UIApplication+StrictKeyWindow.h */,
+				9667A54660B9A69DDE642DB67EB8305B /* UIApplication+StrictKeyWindow.m */,
+				51BF1E1EDDAAFD1A692B299995DAC8D7 /* UIImage+Compare.h */,
+				5711FA96199BE0E6ACA3E51ED8D05680 /* UIImage+Compare.m */,
+				52AA39D00424385291F27E5493B5DFA2 /* UIImage+Diff.h */,
+				D7035CF32FF2FB295EFEE4F6B31778BE /* UIImage+Diff.m */,
+				4A1F17F5E761202AE71A5B3397CAC684 /* UIImage+Snapshot.h */,
+				5ADBE90B8667E7D577FAE2A4567E1E09 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7D5BAF2BC7A76275B87519112CA3FB55 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4CEC2302F23313583C24ADB51A6F7A5A /* Pods */,
+				E9B9BF548F1CDEAF5E35B04FE41B6C2F /* Products */,
+				3D002B9F0D48A03B3DA5EA58C481B0E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B9BF548F1CDEAF5E35B04FE41B6C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */,
+				44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */,
+				3D5E95C8EB3B235D95FE33B7DF8A73D2 /* libPods-TZZPaySDK_Tests.a */,
+				D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43848CF8AC01E9E37F91B15CD7A7698 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		F7E06C0A2EB899F08209355C8C41C344 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EF222229687A8781BC11DB17DDB9A6E0 /* WechatAuthSDK.h */,
+				2B5E0A0178B4609014C4D585DF9D1011 /* WXApi.h */,
+				28A8A5B1E20400AF9C2025238619E6A1 /* WXApiObject.h */,
+				3ABA77A608747DBB11EDB4509B609356 /* Frameworks */,
+				F43848CF8AC01E9E37F91B15CD7A7698 /* Support Files */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AF4D7176B11FEBA032B473142197F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3987678B1170687BB65CC7E05CD7EA8F /* TZZAliPayHelper.h in Headers */,
+				EB97B37248A527DD70C9E38959D2EF23 /* TZZPayManager.h in Headers */,
+				B41C69ABFC71909456870385F9BF9283 /* TZZPayModel.h in Headers */,
+				5F86388268DFFF58C9A92E8BB30C13C0 /* TZZPayProtocol.h in Headers */,
+				AA59E486AA9CF93DC83FA2B9FAF05556 /* TZZWXPayHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */,
+				50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */,
+				EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */,
+				8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */,
+				C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */,
+				C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */,
+				F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F92D97EAF7188BF8B7E0F5859BDE725 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C213E6720F65A23A8A6A9BBB8F5B66E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266BF96621F461CBAFE8F60C3F13B00 /* Pods-TZZPaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D481CCF07247A310FD945B496958400 /* TZZPaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E327536867560425FCF9744000591233 /* Build configuration list for PBXNativeTarget "TZZPaySDK" */;
+			buildPhases = (
+				2AF4D7176B11FEBA032B473142197F42 /* Headers */,
+				CF9D99A832A146205E9D16700AB3D8AB /* Sources */,
+				9EBC6F07E8D2DA4EDDFEF57038CE0532 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46470EEBB34786AE9D5E336F7DC6CAE /* PBXTargetDependency */,
+				2165C281CC2A6CDAD106CE07DCE10B80 /* PBXTargetDependency */,
+			);
+			name = TZZPaySDK;
+			productName = TZZPaySDK;
+			productReference = D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */,
+				A1401BD86D886C360D4729830C6BF16E /* Sources */,
+				1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */,
+				FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E19F75C1511BE3D5CB140DAC03EE14B6 /* Pods-TZZPaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD32E94CAEE03D777C921F75DD18B70B /* Build configuration list for PBXNativeTarget "Pods-TZZPaySDK_Tests" */;
+			buildPhases = (
+				C213E6720F65A23A8A6A9BBB8F5B66E5 /* Headers */,
+				8D234B952C5B91E567E68E9F70D6DF03 /* Sources */,
+				AACAE2D0B22CA4ED527047124F004DBC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD6396E1664AA7A0B993C27D2D456EC /* PBXTargetDependency */,
+				E556F93E044C10D5D1F81B496E00F6A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TZZPaySDK_Tests";
+			productName = "Pods-TZZPaySDK_Tests";
+			productReference = 3D5E95C8EB3B235D95FE33B7DF8A73D2 /* libPods-TZZPaySDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED85B52C03E81B3B8239C5F39EC650F1 /* Pods-TZZPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF558F3AF8BFB515BEFFA29EAFFD90C3 /* Build configuration list for PBXNativeTarget "Pods-TZZPaySDK_Example" */;
+			buildPhases = (
+				7F92D97EAF7188BF8B7E0F5859BDE725 /* Headers */,
+				B018BBC6FF76821ED54F8E25CB420099 /* Sources */,
+				88CD7367772B5FA81C6470BE2D90BA26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A99BC5F227C795F41C505ECBC64E15 /* PBXTargetDependency */,
+				C8239A37067A0A1942AA13FCFFB4F4D1 /* PBXTargetDependency */,
+				EE37E16461265A4D242397B249E62EC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TZZPaySDK_Example";
+			productName = "Pods-TZZPaySDK_Example";
+			productReference = 44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9B9BF548F1CDEAF5E35B04FE41B6C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				ED85B52C03E81B3B8239C5F39EC650F1 /* Pods-TZZPaySDK_Example */,
+				E19F75C1511BE3D5CB140DAC03EE14B6 /* Pods-TZZPaySDK_Tests */,
+				3D481CCF07247A310FD945B496958400 /* TZZPaySDK */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D234B952C5B91E567E68E9F70D6DF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C11B0C0A12D84FEF07114C18979CA6 /* Pods-TZZPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1401BD86D886C360D4729830C6BF16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */,
+				D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */,
+				5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */,
+				77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */,
+				87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */,
+				19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */,
+				A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */,
+				B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */,
+				CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B018BBC6FF76821ED54F8E25CB420099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B611C913D0E6D8A0E313DB58ADC826 /* Pods-TZZPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9D99A832A146205E9D16700AB3D8AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFEA7D10636A35A02BBD9CD20BEDB07 /* TZZAliPayHelper.m in Sources */,
+				609B80EB5384086109D3CC30DAC326D3 /* TZZPayManager.m in Sources */,
+				E5DF24219BFD9DB78FD10D98AA11F099 /* TZZPayModel.m in Sources */,
+				D1479A8C83F0D64C52BBEE656411BFFA /* TZZPaySDK-dummy.m in Sources */,
+				3BC6D7CEF750D88F60C26029221F31D4 /* TZZWXPayHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2165C281CC2A6CDAD106CE07DCE10B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 774F292600E2871CBB89EE3BE17863A7 /* PBXContainerItemProxy */;
+		};
+		7DD6396E1664AA7A0B993C27D2D456EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = A6AFDB2B1F6AE7C0669A95FB39048467 /* PBXContainerItemProxy */;
+		};
+		C8239A37067A0A1942AA13FCFFB4F4D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZZPaySDK;
+			target = 3D481CCF07247A310FD945B496958400 /* TZZPaySDK */;
+			targetProxy = 9136B2C6C21C10AD39A40E64DE0787B7 /* PBXContainerItemProxy */;
+		};
+		E46470EEBB34786AE9D5E336F7DC6CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = 20666B5BE983F079F294ACB5763FD17E /* PBXContainerItemProxy */;
+		};
+		E556F93E044C10D5D1F81B496E00F6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TZZPaySDK_Example";
+			target = ED85B52C03E81B3B8239C5F39EC650F1 /* Pods-TZZPaySDK_Example */;
+			targetProxy = 15E32FBAE4FF1FE5503B75D81A281B14 /* PBXContainerItemProxy */;
+		};
+		E9A99BC5F227C795F41C505ECBC64E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = B3506166A37CACD6B30888AAA940CE85 /* PBXContainerItemProxy */;
+		};
+		EE37E16461265A4D242397B249E62EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 1B84BFFCD92D3E0DA7941DE4888AC935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F2FD6CE2DADCE0D8DB04BC11A2741BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TZZPaySDK/TZZPaySDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TZZPaySDK;
+				PRODUCT_NAME = TZZPaySDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4FB80ADD8D37C3D9A80C1020196F806C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6157F126CF6B50E60BE1B2E5441CEB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77015AF275EE15216F9BD6561B23FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B004D73C63DBCCE6B14E7D220A66835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83C6B13B45EC601024463331A2C1A2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D1032CB2E6E93697DFC197B7AAEF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD17C3D8770D18028D59D76A2D3B5244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF52D770263BBC554EE0C0AC00A94982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TZZPaySDK/TZZPaySDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TZZPaySDK;
+				PRODUCT_NAME = TZZPaySDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C568166E3DA2A07E142D9D7200308CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5EE858C3051C21B8CA109FA7EEE4F9 /* Pods-TZZPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TZZPaySDK_Tests/Pods-TZZPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E72A2374004EDF380797C582C795230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2494195535B93AC1D3902698D131EE33 /* Pods-TZZPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TZZPaySDK_Tests/Pods-TZZPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6B13B45EC601024463331A2C1A2A0 /* Debug */,
+				4FB80ADD8D37C3D9A80C1020196F806C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25AB345A658444BF0780735AEDC36F54 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6157F126CF6B50E60BE1B2E5441CEB48 /* Debug */,
+				7B004D73C63DBCCE6B14E7D220A66835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */,
+				AD17C3D8770D18028D59D76A2D3B5244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD32E94CAEE03D777C921F75DD18B70B /* Build configuration list for PBXNativeTarget "Pods-TZZPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568166E3DA2A07E142D9D7200308CA8 /* Debug */,
+				E72A2374004EDF380797C582C795230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF558F3AF8BFB515BEFFA29EAFFD90C3 /* Build configuration list for PBXNativeTarget "Pods-TZZPaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77015AF275EE15216F9BD6561B23FCC6 /* Debug */,
+				A2D1032CB2E6E93697DFC197B7AAEF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E327536867560425FCF9744000591233 /* Build configuration list for PBXNativeTarget "TZZPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF52D770263BBC554EE0C0AC00A94982 /* Debug */,
+				1F2FD6CE2DADCE0D8DB04BC11A2741BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
