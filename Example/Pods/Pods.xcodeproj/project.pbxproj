@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = "AlipaySDK-iOS";
-			productName = "AlipaySDK-iOS";
 		};
 		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
 			isa = PBXAggregateTarget;
@@ -25,7 +24,6 @@
 			dependencies = (
 			);
 			name = WechatOpenSDK;
-			productName = WechatOpenSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -133,10 +131,10 @@
 		2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3550E6E87F76E7D89073120708C992A1 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		3927ED6FBF527762A7874C21C32DCAF8 /* Pods-TZZPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZZPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D5E95C8EB3B235D95FE33B7DF8A73D2 /* libPods-TZZPaySDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZZPaySDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5E95C8EB3B235D95FE33B7DF8A73D2 /* libPods-TZZPaySDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TZZPaySDK_Tests.a"; path = "libPods-TZZPaySDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA0C1CB0E9A3BE218BDA9C76314AA1 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		44978D4C3D34875F7E9737D8208BE480 /* TZZPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TZZPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TZZPaySDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44978D4C3D34875F7E9737D8208BE480 /* TZZPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TZZPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TZZPaySDK_Example.a"; path = "libPods-TZZPaySDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48596B3A461EE98F273F8D4406FF3F20 /* TZZPayModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZPayModel.m; path = TZZPaySDK/Classes/TZZPayModel.m; sourceTree = "<group>"; };
 		48D06F4A9C3CEEF8DF3D2AAD9FE6505B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4A1F17F5E761202AE71A5B3397CAC684 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
@@ -145,7 +143,7 @@
 		52AA39D00424385291F27E5493B5DFA2 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		5711FA96199BE0E6ACA3E51ED8D05680 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		5ADBE90B8667E7D577FAE2A4567E1E09 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63029F479A36E8EB08343A3011F5ECF2 /* TZZPayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZPayProtocol.h; path = TZZPaySDK/Classes/TZZPayProtocol.h; sourceTree = "<group>"; };
 		6CEEDDA580589468F235E9A8F55286CB /* TZZPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZZPaySDK-prefix.pch"; sourceTree = "<group>"; };
 		75837511022F4F9210DD2F64F52C6B8F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
@@ -155,7 +153,7 @@
 		92EDC7D4529BBFA040F1011C72A1F3A7 /* Pods-TZZPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZZPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9667A54660B9A69DDE642DB67EB8305B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		AD8C75B61C5646D6AF439118FD3D48FA /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		BB2EB59834719044D98BC05D5FC196BA /* TZZAliPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZAliPayHelper.m; path = TZZPaySDK/Classes/TZZAliPayHelper.m; sourceTree = "<group>"; };
@@ -168,10 +166,10 @@
 		D529081A2DB1CCFEBF175E8D230ABC10 /* Pods-TZZPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZZPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZZPaySDK.xcconfig; sourceTree = "<group>"; };
 		D7035CF32FF2FB295EFEE4F6B31778BE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTZZPaySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTZZPaySDK.a; path = libTZZPaySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
-		EA5FC64A8CF8E2688290CA7824F6B310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ED4724851CFBD157B4F3B3E8C92B7ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA5FC64A8CF8E2688290CA7824F6B310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ED4724851CFBD157B4F3B3E8C92B7ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EF222229687A8781BC11DB17DDB9A6E0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		F8B1BF53E6EBD1B82FF2E5ACD8FFB033 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		FBA492562943B425F65F127CF31F8564 /* TZZWXPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZWXPayHelper.m; path = TZZPaySDK/Classes/TZZWXPayHelper.m; sourceTree = "<group>"; };
@@ -296,6 +294,7 @@
 				9D614B7B68E55690ACF74B25DE73FF51 /* Resources */,
 				2E98DB70EBAE7AFC8603BE175BE81B3A /* Support Files */,
 			);
+			name = "AlipaySDK-iOS";
 			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
@@ -377,6 +376,7 @@
 				ACC76754ACC10D8AF1324304BD7F7C33 /* Support Files */,
 				6353DE0D09AF9C5A1CDE113B7749C6F8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -449,6 +449,7 @@
 				3ABA77A608747DBB11EDB4509B609356 /* Frameworks */,
 				F43848CF8AC01E9E37F91B15CD7A7698 /* Support Files */,
 			);
+			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
@@ -752,6 +753,19 @@
 			};
 			name = Release;
 		};
+		3EDB01CBD3BE7EB736CD267394B4160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -805,7 +819,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -884,19 +899,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1009,13 +1011,13 @@
 			};
 			name = Release;
 		};
-		AD17C3D8770D18028D59D76A2D3B5244 /* Release */ = {
+		AE6A3C63D2B496E6CEB67C7704F6E8DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1124,8 +1126,8 @@
 		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */,
-				AD17C3D8770D18028D59D76A2D3B5244 /* Release */,
+				3EDB01CBD3BE7EB736CD267394B4160F /* Debug */,
+				AE6A3C63D2B496E6CEB67C7704F6E8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

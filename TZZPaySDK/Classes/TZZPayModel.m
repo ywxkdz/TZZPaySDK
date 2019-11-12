@@ -11,3 +11,7 @@
 @implementation TZZPayModel
 
 @end
+
+@implementation TZZPayResp
+
+@end
