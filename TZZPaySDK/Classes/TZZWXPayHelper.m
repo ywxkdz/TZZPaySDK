@@ -42,11 +42,7 @@
     request.partnerId = payModel.timeStamp;
     request.partnerId = payModel.sign;
     
-    [WXApi sendReq:request completion:^(BOOL success) {
-        if (success) {
-            NSLog(@"WXApi sendReq success");
-        }
-    }];
+    [WXApi sendReq:request];
 }
 - (void)handleOpenURL:(NSURL *)url
 {
