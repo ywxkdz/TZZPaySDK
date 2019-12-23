@@ -123,10 +123,9 @@
 		1EF80A9E065485936500266FC8E0512E /* Pods-TZZPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZZPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
 		2494195535B93AC1D3902698D131EE33 /* Pods-TZZPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		252C779FCF86C0D850978C46D41DC481 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		27A675F514A0B337A0149D0942B38F21 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
 		28A2AF7A18DD9756C7C9DD9EBE86DFB4 /* Pods-TZZPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZZPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		28A8A5B1E20400AF9C2025238619E6A1 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
 		2A684BA1DB4C5C71E12E503D3E84066A /* TZZPayModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZPayModel.h; path = TZZPaySDK/Classes/TZZPayModel.h; sourceTree = "<group>"; };
-		2B5E0A0178B4609014C4D585DF9D1011 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
 		2CEF52419911120715DD7A5E158C386B /* Pods-TZZPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZZPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
 		2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3550E6E87F76E7D89073120708C992A1 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -135,6 +134,7 @@
 		3FCA0C1CB0E9A3BE218BDA9C76314AA1 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		44978D4C3D34875F7E9737D8208BE480 /* TZZPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TZZPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44E3F759AE6FE5EEE73FE3750FDA4CE4 /* libPods-TZZPaySDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TZZPaySDK_Example.a"; path = "libPods-TZZPaySDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F2B3147F2CC86A8950750A2C471BCB /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.0/WXApiObject.h; sourceTree = "<group>"; };
 		48596B3A461EE98F273F8D4406FF3F20 /* TZZPayModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZPayModel.m; path = TZZPaySDK/Classes/TZZPayModel.m; sourceTree = "<group>"; };
 		48D06F4A9C3CEEF8DF3D2AAD9FE6505B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4A1F17F5E761202AE71A5B3397CAC684 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
@@ -150,27 +150,27 @@
 		75EF6441F4A0A094A2BBD85431ACBD56 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		7BB7250D5040892E01E4CE526DDBAD57 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7D81562FA344BCBFD5FE69BE9FA5610C /* TZZWXPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZZWXPayHelper.h; path = TZZPaySDK/Classes/TZZWXPayHelper.h; sourceTree = "<group>"; };
+		8E24AFC59D9187D74F9FF4B804BB9700 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.0/WechatAuthSDK.h; sourceTree = "<group>"; };
 		92EDC7D4529BBFA040F1011C72A1F3A7 /* Pods-TZZPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZZPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZZPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9667A54660B9A69DDE642DB67EB8305B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3EE8B2516750C3F3BCE5100352DAB2 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		A93827F0AD67E48FE4BFC20CEDD0C25C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.0/libWeChatSDK.a; sourceTree = "<group>"; };
 		AD8C75B61C5646D6AF439118FD3D48FA /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		BB2EB59834719044D98BC05D5FC196BA /* TZZAliPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZAliPayHelper.m; path = TZZPaySDK/Classes/TZZAliPayHelper.m; sourceTree = "<group>"; };
+		BC7C65833349CA3CE84998BDD15F69CE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.0/WXApi.h; sourceTree = "<group>"; };
 		C2DC451241B44ABB628C6489DAAE155E /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		C5164B8231DC6363C776769A3F8D64EA /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		CA3E331E5B93459C9CC95AFD7564484E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		CB681F5F3F7B9B9074DB3BB959048ACA /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
 		CBF42D7A88CCD139CCC11280A91F63C7 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
 		CF0A7FEF76C021F67B2FA4E2A66AEE4C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		D529081A2DB1CCFEBF175E8D230ABC10 /* Pods-TZZPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZZPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D5EDF9B69BD319FD23DF3220E2A8E9B7 /* TZZPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZZPaySDK.xcconfig; sourceTree = "<group>"; };
 		D7035CF32FF2FB295EFEE4F6B31778BE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTZZPaySDK.a; path = libTZZPaySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
 		EA5FC64A8CF8E2688290CA7824F6B310 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ED4724851CFBD157B4F3B3E8C92B7ACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EF222229687A8781BC11DB17DDB9A6E0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		F8B1BF53E6EBD1B82FF2E5ACD8FFB033 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		FBA492562943B425F65F127CF31F8564 /* TZZWXPayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZZWXPayHelper.m; path = TZZPaySDK/Classes/TZZWXPayHelper.m; sourceTree = "<group>"; };
 		FCB2AC799A90D6B55AB1FEE246DFE3A5 /* Pods-TZZPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZZPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
@@ -250,14 +250,6 @@
 			path = "../Target Support Files/AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
-		3ABA77A608747DBB11EDB4509B609356 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB681F5F3F7B9B9074DB3BB959048ACA /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3D002B9F0D48A03B3DA5EA58C481B0E1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,7 +274,7 @@
 			children = (
 				51A027D16E8782722AF9D4E832CD2DA5 /* AlipaySDK-iOS */,
 				C184978ADE34B12A448776911BAEE250 /* FBSnapshotTestCase */,
-				F7E06C0A2EB899F08209355C8C41C344 /* WechatOpenSDK */,
+				CEA5B0933BAFCA8A1153D905B5E9C6F0 /* WechatOpenSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -304,6 +296,14 @@
 				100F5DC5F0FFB9617122489870AD9E6C /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		658B6508157FF64F2B5512025776F944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A93827F0AD67E48FE4BFC20CEDD0C25C /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6A3DFDCA9A49C7E164AD5C2494F90BAC /* Support Files */ = {
@@ -356,6 +356,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		A1641CB613C2E243EFD0A50FE4879818 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A675F514A0B337A0149D0942B38F21 /* WechatOpenSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
 		ACC76754ACC10D8AF1324304BD7F7C33 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +410,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		CEA5B0933BAFCA8A1153D905B5E9C6F0 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8E24AFC59D9187D74F9FF4B804BB9700 /* WechatAuthSDK.h */,
+				BC7C65833349CA3CE84998BDD15F69CE /* WXApi.h */,
+				47F2B3147F2CC86A8950750A2C471BCB /* WXApiObject.h */,
+				658B6508157FF64F2B5512025776F944 /* Frameworks */,
+				A1641CB613C2E243EFD0A50FE4879818 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -429,28 +451,6 @@
 				D86F918E34CC2985A755CEA77DA8546A /* libTZZPaySDK.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F43848CF8AC01E9E37F91B15CD7A7698 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
-			sourceTree = "<group>";
-		};
-		F7E06C0A2EB899F08209355C8C41C344 /* WechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				EF222229687A8781BC11DB17DDB9A6E0 /* WechatAuthSDK.h */,
-				2B5E0A0178B4609014C4D585DF9D1011 /* WXApi.h */,
-				28A8A5B1E20400AF9C2025238619E6A1 /* WXApiObject.h */,
-				3ABA77A608747DBB11EDB4509B609356 /* Frameworks */,
-				F43848CF8AC01E9E37F91B15CD7A7698 /* Support Files */,
-			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -592,7 +592,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E9B9BF548F1CDEAF5E35B04FE41B6C2F /* Products */;
@@ -852,19 +851,6 @@
 			};
 			name = Release;
 		};
-		6157F126CF6B50E60BE1B2E5441CEB48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		77015AF275EE15216F9BD6561B23FCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DCD0E367F39D3C08E3E3270F699489F /* Pods-TZZPaySDK_Example.debug.xcconfig */;
@@ -885,20 +871,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		7B004D73C63DBCCE6B14E7D220A66835 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBB8A2C097F5F0862F768A883636A2B7 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -989,6 +961,20 @@
 			};
 			name = Debug;
 		};
+		A28CDC174EED11C173DEB3E80F07FA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A675F514A0B337A0149D0942B38F21 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A2D1032CB2E6E93697DFC197B7AAEF88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960AC01C3FA464E8FCD2DE58A9B89516 /* Pods-TZZPaySDK_Example.release.xcconfig */;
@@ -1070,6 +1056,19 @@
 			};
 			name = Debug;
 		};
+		D4AE76D48F185C816F91A591051A4E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A675F514A0B337A0149D0942B38F21 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		E72A2374004EDF380797C582C795230D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2494195535B93AC1D3902698D131EE33 /* Pods-TZZPaySDK_Tests.release.xcconfig */;
@@ -1108,8 +1107,8 @@
 		25AB345A658444BF0780735AEDC36F54 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6157F126CF6B50E60BE1B2E5441CEB48 /* Debug */,
-				7B004D73C63DBCCE6B14E7D220A66835 /* Release */,
+				D4AE76D48F185C816F91A591051A4E9E /* Debug */,
+				A28CDC174EED11C173DEB3E80F07FA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

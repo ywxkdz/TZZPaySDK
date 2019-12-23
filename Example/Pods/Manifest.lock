@@ -5,10 +5,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TZZPaySDK (0.1.0):
+  - TZZPaySDK (0.1.2):
     - AlipaySDK-iOS
-    - WechatOpenSDK
-  - WechatOpenSDK (1.8.6)
+    - WechatOpenSDK (= 1.8.0)
+  - WechatOpenSDK (1.8.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -27,8 +27,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TZZPaySDK: d93abbf3b04039083e8fe5dc2acb7aea66814d8d
-  WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+  TZZPaySDK: 449c51f45c06af83823c2e310041c9202608fae5
+  WechatOpenSDK: 0ee07a8d492299d3e47372a33da5af26524a7576
 
 PODFILE CHECKSUM: 5c982a6715355f561eaa84c97f81fda9d1263eee
 
